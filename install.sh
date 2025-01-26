@@ -33,7 +33,7 @@ echo "配置已更新，dnsmasq 已重启"
 # 自动更新 hosts 文件
 # 定义下载 URL 和保存路径
 UPDATE_SCRIPT="/etc/dnsmasq.d/update_hosts.sh"
-SCRIPT_URL="https://cdn.jsdelivr.net/gh/noviachen/Dnsmasq-Adblock@main/update_hosts.sh"
+SCRIPT_URL="https://fastly.jsdelivr.net/gh/noviachen/Dnsmasq-Adblock@main/update_hosts.sh"
 
 # 下载自动更新脚本
 curl -sSLo "$UPDATE_SCRIPT" "$SCRIPT_URL"
